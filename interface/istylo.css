@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.logo{
+	font-family: 'Aclonica';
+    display: inline;
+	font-size: 25px;
+}
+
+.logo a h3{     
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 33px;
+    padding-left: 25px;
+    float: left;
+}
+
+.nav_bar{
+	font-family: 'aclonica';
+	font-size: 20px;
+	float: right;
+	list-style: none;
+    padding: 15px;
+    padding-top: 39px;
+}
+
+.nav_bar li{
+	display: inline-block;
+}
+
+.nav_bar li a{
+	padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_bar li a:hover{
+	background: #959191;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	border-width: auto;
+	transition: 0.5s;
+}
+/*Fim Cabeçalho*/
+
+.container{
+    height: 1800px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #000;
+}
+
+.parte-cima{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+.img{
+    background-image: url(capasdasinopse/capaop.jpg);
+    width: 160px;
+    height: 220px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+}
+
+.title{
+    color: #fff;
+    width: 340%;
+    height: 40px;
+    margin-left: 200px;
+    border-bottom: 1px solid grey;
+}
+
+.nota{
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid grey;
+    display: flex;
+}
+
+.nota img{
+    width: 37px;
+    height: 40px;
+    padding: 5px;
+    padding-bottom: 7px;
+}
+
+.sinopse{
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+   
+}
+
+.eps_msg{
+    color: #fff;
+    width: 100%;
+    height: 35px;
+}
+
+.episodios{
+    width: 100;
+    height: 450px;
+}
+
+.episodios li{
+    list-style: none;
+    height: 52px;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.imagem{
+    width: 100px;
+    float: left;
+    margin-top: 3px;
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+.numerado{
+    float: left;
+    padding: 9px;
+    margin: 10px 0px 10px 10px;
+    border-right: solid 1px;
+    width: 75px;
+    text-align: center;
+    font-weight: 600;
+    color: #a0a0a0;
+}
+
+.tituloep{
+    float: left;
+    padding: 10px;
+   /* width: calc(100% - 120px); */
+    padding-left: 25px;
+    /*position: absolute; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tituloep a{
+    width: 100%;
+    line-height: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+}
+

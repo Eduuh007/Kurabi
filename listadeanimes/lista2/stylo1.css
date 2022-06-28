@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Cabeçalho */
+header{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.logo{
+	font-family: 'Aclonica';
+    display: inline;
+	font-size: 25px;
+}
+
+.logo a h3{     
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 33px;
+    padding-left: 25px;
+    float: left;
+}
+
+.nav_bar{
+	font-family: 'aclonica';
+	font-size: 20px;
+	float: right;
+	list-style: none;
+    padding: 15px;
+    padding-top: 39px;
+}
+
+.nav_bar li{
+	display: inline-block;
+}
+
+.nav_bar li a{
+	padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_bar li a:hover{
+	background: #959191;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	border-width: auto;
+	transition: 0.5s;
+}
+
+.container{
+    width: 55vw;
+    height: 104vh;
+    min-width: 50%;
+    min-height: 50%;
+    margin-left: 23%;
+    margin-right: 22%;
+    background-color: #000;
+    padding: 10px;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+.lista{ 
+    margin-top: 14px;
+    width: 170px;
+    height: 270px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+    max-width: 300px;
+    max-height: 350px;
+    min-width: 18%;
+    min-height: 250px;
+}
+
+.lista:hover{
+    transition: all 0.3s;
+    opacity: 0.5;
+ 
+}
+
+.botton{
+    width: 70px;
+    height: 35px;
+    padding: 6px;
+    margin-bottom: 20px;
+    bottom: 0;
+    right: 40px;
+    color: #000;
+    margin: 1px solid grey;
+    background-color: #fff;
+    position: absolute;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.botton:hover{
+    transition: .5s;
+    opacity: 0.5;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #3db36b;
+    color: #fff;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+    padding: 50px;
+}
